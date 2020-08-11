@@ -124,7 +124,7 @@ nav.navbar-dark .navbar-brand {
 	width: 32px;
 	height: 32px;
 	border-radius: 100%;
-	overflow: hidd3en;
+	overflow: hidden;
 }
 .flag.us{
 	background-image: url('../images/icons/icon-usa.png');
@@ -328,9 +328,6 @@ footer .copyright p{
     text-align: center;
 }
 @media(min-width: 768px) and (max-width: 1024px){
-	div#accordionExample {
-		min-height: 355px;
-	}
 	header a.navbar-brand {
 		max-width: 190px;
 	}
@@ -348,6 +345,14 @@ footer .copyright p{
 		font-size: 14px;
 		line-height: 17px;
 		right: 8px;
+	}
+	.dd .ddTitle {
+		width: 95px;
+		height: 36px;
+		padding: 5px;
+	}
+	.dd .ddChild {
+		min-width: 95px;
 	}
 	#countries_msdd ul li {
 		padding: 4px 10px;
@@ -391,17 +396,50 @@ footer .copyright p{
 		font-size: 16px;
 		padding: 9px 21px 15px 21px;
 	}
+	footer .left .img-wrap {
+		width: 100%;
+	}
+
+
 
 }	
 @media(max-width: 767px){
 	.container{
 		max-width: 560px;
 	}
+	dd .arrow, span#countries_title {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.dd .ddTitle {
+		width: 85px;
+		height: 38px;
+		padding: 4px;
+	}
+	.dd .arrow {
+		font-size: 14px;
+		right: 5px;
+		top: 53%;
+	}
+	#countries_msdd ul li {
+		padding: 4px 8px;
+	}
+	.flag {
+		width: 24px;
+		height: 24px;
+	}
+	span.navbar-text {
+		display: block;
+		text-align: left;
+	}
+	.dd .ddChild {
+		min-width: 85px;
+	}
 	nav.navbar {
 		padding: 20px 15px 20px 15px;
 	}
 	header a.navbar-brand {
-		max-width: 170px;
+		max-width: 150px;
 	}
 	h2 {
 		font-size: 30px;
@@ -417,7 +455,7 @@ footer .copyright p{
 		margin-bottom: 15px;
 	}
 	.announcement-wrap .black-box {
-		padding: 20px 10px 30px 10px;
+		padding: 20px 16px 25px 20px;
 	}
 	.announcement-wrap .text_wrap p {
 		font-size: 14px;
@@ -425,6 +463,9 @@ footer .copyright p{
 	}
 	.announcement-wrap .center {
 		margin: 15px 0;
+	}
+	.announcement-wrap .img-wrap{
+		max-width: 80%;
 	}
 	.announcement-wrap .wrap {
 		display: flex;
@@ -434,11 +475,40 @@ footer .copyright p{
 		margin-bottom: 30px;
 	}
 	.announcement-wrap .title-wrap {
-		padding-bottom: 20px;
+		padding-bottom: 40px;
 		text-align: center;
 	}
 	.announcement-wrap .para_text_box ul li {
 		font-size: 14px;
 		line-height: 20px;
+	}
+	.btn-join {
+		font-size: 14px;
+	}
+	footer .copyright {
+		padding: 16px 0 16px 0;
+		margin-top: 26px;
+	}
+	footer .copyright p {
+		font-size: 14px;
+		margin-right: 0;
+	}
+	footer .wrap {
+		flex-direction: column;
+	}
+	footer .left .img-wrap{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 24px;
+	}
+	footer {
+		padding-top: 30px;
+	}
+	footer .left .img-wrap {
+		margin-top: 0px;
+	}
+	footer .social {
+		justify-content: center;
+		margin-top: 0;
 	}
 }	
