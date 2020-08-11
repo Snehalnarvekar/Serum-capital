@@ -30,7 +30,7 @@ body {
 	width:100%;
 }
 @font-face{
-	font-family: '';
+	font-family: 'Lato';
 	src:url('./fonts/');
 }
 img{
@@ -51,7 +51,7 @@ a:hover{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 19px;
+	line-height: 20px;
 	transition: 0.3s all linear;
 }
 .btn.btn-primary{
@@ -156,7 +156,6 @@ h2{
 	font-size: 20px;
 	line-height: 25px;
 	text-align: center;
-	max-width: 313px;
 	padding: 9px 31px 15px 21px;
 }
 .announcement-wrap .para_text_box p{
@@ -166,6 +165,9 @@ h2{
 	line-height: 27.65px;
 	text-align: left;
 	margin-bottom: 30px;
+}
+.announcement-wrap .para_text_box p .green{
+	color: #7BF6BF;
 }
 .announcement-wrap .para_text_box ul li{
 	color: #7BF6BF;
@@ -184,7 +186,6 @@ h2{
 	margin-bottom: 82px;
 }
 .announcement-wrap .center{
-	max-width: 313px;
     background-color: #FFEB90;
 	border-radius: 24px;	
 }
@@ -195,7 +196,7 @@ h2{
 }
 .btn-join{
 	position: relative;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
     padding: 14px 23px 16px 19px;
     text-align: center;
@@ -211,6 +212,9 @@ h2{
 .ecosystem .title-wrap{
 	padding-top: 70px;
 	padding-bottom: 14px;
+}
+.ecosystem .title-wrap h2 .purple{
+	color: #DA58EB;
 }
 .ecosystem .title-wrap span{
 	color: #9DA7BD;
@@ -261,20 +265,30 @@ section.msrm-wrap{
 	padding: 81px 0;
 }
 .btn-chat{
+	color: #0F1017;
+	font-family:'Lato', sans-serif;;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
 	padding: 23px 52px 23px 54px;
 }
 .msrm-wrap .text-box{
-color: #0F1017;
-font-family: 'Source Sans Pro', sans-serif;
-font-size: 24px;
-line-height: 25px;
-text-align: left;
-padding-top: 6px;
-padding-bottom: 40px;
+	color: #0F1017;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	line-height: 25px;
+	text-align: left;
+	padding-top: 6px;
+	padding-bottom: 40px;
+}
+.msrm-wrap .title-wrap h2{
+	color: #0F1017;
 }
 .msrm-wrap .img-wrap .msrm_image{
-	width: 82%;
+	width: 110%;
 	margin-top: -150px;
+	margin-right: 20px;
 }
 footer{
     width: 100%;
@@ -394,13 +408,22 @@ footer .copyright p{
 	}
 	.announcement-wrap .text_wrap p {
 		font-size: 16px;
-		padding: 9px 21px 15px 21px;
+		padding: 9px 28px 10px 21px;
+	}
+	.btn-chat {
+		font-size: 16px;
+		padding: 20px 50px;
+	}
+	.msrm-wrap .text-box {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.msrm-wrap .msrm-wrapper-content {
+		padding: 75px 0;
 	}
 	footer .left .img-wrap {
 		width: 100%;
 	}
-
-
 
 }	
 @media(max-width: 767px){
@@ -484,6 +507,27 @@ footer .copyright p{
 	}
 	.btn-join {
 		font-size: 14px;
+	}
+	.btn-chat {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 20px 30px;
+	}
+	.msrm-wrap .content-wrapper{
+		justify-content: center;
+	}
+	.msrm-wrap .text-box {
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		padding-top: 6px;
+		padding-bottom: 20px;
+	}
+	.msrm-wrap .button-wrap{
+		text-align: center;
+	}
+	.msrm-wrap .msrm-wrapper-content {
+		padding: 30px 0;
 	}
 	footer .copyright {
 		padding: 16px 0 16px 0;
