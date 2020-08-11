@@ -274,9 +274,6 @@ section.msrm-wrap {
     width: 100%;
     float: left;
 }
-.msrm-wrap .msrm-wrapper-content{
-	padding: 81px 0;
-}
 .btn-chat{
 	color: #0F1017;
 	font-family:'Lato', sans-serif;;
@@ -304,6 +301,9 @@ section.msrm-wrap {
     width: 100%;
     height: 399px;
     object-fit: cover;
+}
+.content-wrapper.msrm-content {
+    padding-top: 80px;
 }
 footer{
     width: 100%;
