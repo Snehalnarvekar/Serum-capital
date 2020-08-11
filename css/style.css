@@ -129,6 +129,9 @@ nav.navbar-dark .navbar-brand {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
+.dd .arrow {
+    margin-top: -10px;
+}
 h2{
 	color: #FFFFFF;
 	font-family: 'Source Sans Pro', sans-serif;
